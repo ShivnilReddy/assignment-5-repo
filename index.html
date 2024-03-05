@@ -1,33 +1,28 @@
-<nav class="menue"></nav>
-<h1>"Assignement 5"</h1>
-<h2 class="css-question"></h2> How to Apply CSS to HTML
-<p class="css-question"></p>
-<h2 class="js-question"></h2> How to Use JavaScript in a Webpage
-<p class="js-question"></p>
-
-
-<svg width="100%" height="300" version="1.1"
-     xmlns="http://www.w3.org/2000/svg">
-        <rect width="100%" height="100%" fill="black" />
-        <circle cx="100%" cy="50%" r="150" fill="purple" stroke="black" fill-opacity="0.6" />
-        <rect x="5%" y="5%" width="20" height="20" transform="rotate(5)" />
-        <polygon points="300,300 440,100 600,300" fill="#B3B6B7" />
-        <text x="100" y="100" font-family="Arial" font-size="80" fill="purple" stroke="black" stroke-width="1"
-            transform="rotate(-1)">
-            THIS IS MY BANNER
-        </text>
-        <g>
-            <path fill-opacity="0.1" stroke="lightgray" d="
-                M 440, 100
-                m -50, 0
-                a 50,50 0 1,0 100,0
-                a 50,50 0 1,0 -100,0
-            " />
-            ` <circle r="5" fill="purple">
-                <animateMotion dur="10s" repeatCount="indefinite" path=" M 440, 100
-                    m -50, 0
-                    a 50,50 0 1,0 100,0
-                    a 50,50 0 1,0 -100,0" />
-            </circle>
-        </g>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 5</title>
+    <link rel="icon" href="./resources/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+    <svg width="100%" height="300">
+        <rect width="100%" height="300" fill="blue"></rect>
+        <circle cx="150" cy="150" r="80" fill="green"></circle>
+        <polygon points="300,100 400,210 200,210" fill="red"></polygon>
     </svg>
+    <nav class="menu">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./views/two.html">Page Two</a></li>
+            <li><a href="./views/three.html">Page Three</a></li>
+        </ul>
+    </nav>
+    <h1>Assignment 5</h1>
+    <h2 class="css-question">How to Apply CSS to HTML</h2>
+    <p class="css-question">To include an external CSS file, use the <code>&lt;link rel="stylesheet" href="path/to/style.css"&gt;</code> tag in the <code>&lt;head&gt;</code> of your HTML document.</p>
+    <h2 class="js-question">How to Use JavaScript in a Webpage</h2>
+    <p class="js-question">Link to an external JavaScript file using <code>&lt;script src="path/to/script.js"&gt;&lt;/script&gt;</code> at the end of your HTML document, before the closing <code>&lt;/body&gt;</code> tag. Alternatively, you can include JavaScript directly within HTML using <code>&lt;script&gt;</code> tags.</p>
+</body>
+</html>
