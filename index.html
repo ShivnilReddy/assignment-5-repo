@@ -1,28 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment 5</title>
-    <link rel="icon" href="./resources/favicon.svg" type="image/svg+xml">
+    <title>Group Project 1: Webpage</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <svg width="100%" height="300">
-        <rect width="100%" height="300" fill="blue"></rect>
-        <circle cx="150" cy="150" r="80" fill="green"></circle>
-        <polygon points="300,100 400,210 200,210" fill="red"></polygon>
-    </svg>
-    <nav class="menu">
-        <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./views/two.html">Page Two</a></li>
-            <li><a href="./views/three.html">Page Three</a></li>
-        </ul>
-    </nav>
-    <h1>Assignment 5</h1>
-    <h2 class="css-question">How to Apply CSS to HTML</h2>
-    <p class="css-question">To include an external CSS file, use the <code>&lt;link rel="stylesheet" href="path/to/style.css"&gt;</code> tag in the <code>&lt;head&gt;</code> of your HTML document.</p>
-    <h2 class="js-question">How to Use JavaScript in a Webpage</h2>
-    <p class="js-question">Link to an external JavaScript file using <code>&lt;script src="path/to/script.js"&gt;&lt;/script&gt;</code> at the end of your HTML document, before the closing <code>&lt;/body&gt;</code> tag. Alternatively, you can include JavaScript directly within HTML using <code>&lt;script&gt;</code> tags.</p>
+    <div class="header">
+        <nav id="navbar">
+            <img src="images/logo.png" class=logo>
+            <ul id="menu">
+                <li>HOME</li>
+                <li>LIGHT THE BEAM</li>
+                <li>TEAM STORE</li>
+                <li>LOGIN</li>
+           </ul>
+        </nav>
+    </div>
+    <section class="flexbox-container">
+            <div class="flexbox" id="uniforms">
+                <h2>Uniforms Over The Years</h2>
+                <!-- Content goes here -->
+            </div>
+            <div class="flexbox" id="history">
+                <h2>History of The Team</h2>
+                <!-- Content goes here -->
+            </div>
+            <div class="flexbox" id="schedule">
+                <h2>2023-2024 Schedule</h2>
+                <!-- Content goes here -->
+            </div>
+        </section>
+    <p class="text">
+    hkjajsdfklaskdhfklsahjdfkljsakldfhskjhdfkl;jas;df;a
+    askjdflhsjdfkhklsdfhjklsdjflas
+    asjkdlfhjksdhfnkjsdbnfkjs;jdnfkl;saj;ldf
+    asdjkfljsa;kdfhjklshdfjkashduiof
+    asjdklfjioahgnjfkdghbnldksfgh
+    
+    </p>
+    
+    <p class="text">
+    hkjajsdfklaskdhfklsahjdfkljsakldfhskjhdfkl;jas;df;a
+    askjdflhsjdfkhklsdfhjklsdjflas
+    asjkdlfhjksdhfnkjsdbnfkjs;jdnfkl;saj;ldf
+    asdjkfljsa;kdfhjklshdfjkashduiof
+    asjdklfjioahgnjfkdghbnldksfgh
+    
+    </p>
+    
+    <p class="text">
+    hkjajsdfklaskdhfklsahjdfkljsakldfhskjhdfkl;jas;df;a
+    askjdflhsjdfkhklsdfhjklsdjflas
+    asjkdlfhjksdhfnkjsdbnfkjs;jdnfkl;saj;ldf
+    asdjkfljsa;kdfhjklshdfjkashduiof
+    asjdklfjioahgnjfkdghbnldksfgh
+    
+    </p>
+    
+    
+    <script>
+    		var navbar = document.getElementById("navbar");
+				var menu = document.getElementById("menu");
+        
+        window.onscroll = function(){
+        		if(window.pageYOffset >= menu.offsetTop){
+            		navbar.classList.add("sticky");
+            }
+            else{
+            		navbar.classList.remove("sticky")
+            }
+        }
+        
+    </script>
+    
+    
+     <div class="subscription-form">
+        <form>
+            <label for="email">Join the Kingdom:</label>
+            <input type="email" id="email" name="email" placeholder="Enter email...">
+            <button type="submit">Submit</button>
+        </form>
+    </div> 
+    
+    <footer>
+        <div class="footer-content">
+            <!-- Footer links or text -->
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Subscribe</a>
+            <a href="#">Follow Us</a>
+        </div>
+    </footer>
+    
 </body>
 </html>
