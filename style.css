@@ -61,6 +61,7 @@ nav.sticky ul{
     flex-wrap: wrap;
     gap: 10px;
     padding: 20px;
+    text-align: center;
 }
 
 .flexbox {
