@@ -19,36 +19,19 @@
     </div>
     <section class="flexbox-container">
             <div class="flexbox" id="uniforms">
-    <h2>Uniforms Over The Years</h2>
-    <div class="jerseys">
-        <!-- Radio buttons for controlling which jersey is visible -->
-        <input type="radio" name="jersey" id="jersey1" class="jersey-radio" checked>
-        <input type="radio" name="jersey" id="jersey2" class="jersey-radio">
-        <input type="radio" name="jersey" id="jersey3" class="jersey-radio">
-        <input type="radio" name="jersey" id="jersey4" class="jersey-radio">
-        <input type="radio" name="jersey" id="jersey5" class="jersey-radio">
-        <input type="radio" name="jersey" id="jersey6" class="jersey-radio">
-        <input type="radio" name="jersey" id="jersey7" class="jersey-radio">
-
-        <!-- Jersey images wrapped in labels -->
-        <label for="jersey2" class="jersey"><img src="./resources/Jersey1.png" alt="Jersey 1"></label>
-        <label for="jersey3" class="jersey"><img src="./resources/Jersey2.png" alt="Jersey 2"></label>
-        <label for="jersey4" class="jersey"><img src="./resources/Jersey3.png" alt="Jersey 3"></label>
-        <label for="jersey5" class="jersey"><img src="./resources/Jersey4.png" alt="Jersey 4"></label>
-        <label for="jersey6" class="jersey"><img src="./resources/Jersey5.png" alt="Jersey 5"></label>
-        <label for="jersey7" class="jersey"><img src="./resources/Jersey6.png" alt="Jersey 6"></label>
-        <label for="jersey1" class="jersey last"><img src="./resources/Jersey7.png" alt="Jersey 7"></label>
-
-        <!-- Next buttons -->
-        <label for="jersey2" class="next">&#10095;</label>
-        <label for="jersey3" class="next">&#10095;</label>
-        <label for="jersey4" class="next">&#10095;</label>
-        <label for="jersey5" class="next">&#10095;</label>
-        <label for="jersey6" class="next">&#10095;</label>
-        <label for="jersey7" class="next">&#10095;</label>
-        <label for="jersey1" class="next last">&#10095;</label>
-    </div>
-</div>
+    		<h2>Uniforms Over The Years</h2>
+    			<div class="jerseys">
+        			<div class="jersey" style="display: block;"><img src="./resources/Jersey1.png" alt="Jersey 1"></div>
+       			 	<div class="jersey" style="display: none;"><img src="./resources/Jersey2.png" alt="Jersey 2"></div>
+        			<div class="jersey" style="display: none;"><img src="./resources/Jersey3.png" alt="Jersey 3"></div>
+        			<div class="jersey" style="display: none;"><img src="./resources/Jersey4.png" alt="Jersey 4"></div>
+        			<div class="jersey" style="display: none;"><img src="./resources/Jersey5.png" alt="Jersey 5"></div>
+        			<div class="jersey" style="display: none;"><img src="./resources/Jersey6.png" alt="Jersey 6"></div>
+        			<div class="jersey" style="display: none;"><img src="./resources/Jersey7.png" alt="Jersey 7"></div>
+    			</div>
+    			<button id="prevJersey">&#10094;</button>
+    			<button id="nextJersey">&#10095;</button>
+	    </div>
 
             <div class="flexbox" id="history">
                 <h2>History of The Team</h2>
