@@ -16,6 +16,8 @@
      width: 100%;
      padding: 20px 0;
      text-align: center;
+     position: relative;
+     z-index: 1000;
  }
  .logo{
      width: 150px;
@@ -48,6 +50,7 @@ nav.sticky{
       align-items: center;
       justify-content: space-between;
       transition: padding 1s;
+      z-index: 1000;
 }
 
 nav.sticky ul{
@@ -73,7 +76,9 @@ nav.sticky ul{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
-
+.flexbox h2{
+    text-align: center;
+}
 
 .jerseys {
     position: relative;
