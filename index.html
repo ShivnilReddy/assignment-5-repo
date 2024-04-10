@@ -19,63 +19,37 @@
     </div>
     <section class="flexbox-container">
             <div class="flexbox" id="uniforms">
-                <h2>Uniforms Over The Years</h2>
-                	<div class="flexbox" id="uniforms">
+    <h2>Uniforms Over The Years</h2>
+    <div class="jerseys">
+        <!-- Radio buttons for controlling which jersey is visible -->
+        <input type="radio" name="jersey" id="jersey1" class="jersey-radio" checked>
+        <input type="radio" name="jersey" id="jersey2" class="jersey-radio">
+        <input type="radio" name="jersey" id="jersey3" class="jersey-radio">
+        <input type="radio" name="jersey" id="jersey4" class="jersey-radio">
+        <input type="radio" name="jersey" id="jersey5" class="jersey-radio">
+        <input type="radio" name="jersey" id="jersey6" class="jersey-radio">
+        <input type="radio" name="jersey" id="jersey7" class="jersey-radio">
 
-			    <input type="radio" name="jersey" id="jersey1" checked>
-			    <input type="radio" name="jersey" id="jersey2">
-			    <input type="radio" name="jersey" id="jersey3">
-			    <input type="radio" name="jersey" id="jersey4">
-			    <input type="radio" name="jersey" id="jersey5">
-			    <input type="radio" name="jersey" id="jersey6">
-			    <input type="radio" name="jersey" id="jersey7">
-    
-			    <!-- Jerseys -->
-			    <div class="jerseys">
-    <!-- Radio buttons for controlling which jersey is visible -->
-    <input type="radio" name="jersey" id="jersey1" checked>
-    <label for="jersey1" class="prev">&#10094;</label>
-    <label for="jersey2" class="next">&#10095;</label>
-    <img src="./resources/Jersey1.png" alt="Jersey 1">
+        <!-- Jersey images wrapped in labels -->
+        <label for="jersey2" class="jersey"><img src="./resources/Jersey1.png" alt="Jersey 1"></label>
+        <label for="jersey3" class="jersey"><img src="./resources/Jersey2.png" alt="Jersey 2"></label>
+        <label for="jersey4" class="jersey"><img src="./resources/Jersey3.png" alt="Jersey 3"></label>
+        <label for="jersey5" class="jersey"><img src="./resources/Jersey4.png" alt="Jersey 4"></label>
+        <label for="jersey6" class="jersey"><img src="./resources/Jersey5.png" alt="Jersey 5"></label>
+        <label for="jersey7" class="jersey"><img src="./resources/Jersey6.png" alt="Jersey 6"></label>
+        <label for="jersey1" class="jersey last"><img src="./resources/Jersey7.png" alt="Jersey 7"></label>
 
-    <input type="radio" name="jersey" id="jersey2">
-    <label for="jersey2" class="prev">&#10094;</label>
-    <label for="jersey3" class="next">&#10095;</label>
-    <img src="./resources/Jersey2.png" alt="Jersey 2">
-
-    <!-- Repeat for other jerseys -->
+        <!-- Next buttons -->
+        <label for="jersey2" class="next">&#10095;</label>
+        <label for="jersey3" class="next">&#10095;</label>
+        <label for="jersey4" class="next">&#10095;</label>
+        <label for="jersey5" class="next">&#10095;</label>
+        <label for="jersey6" class="next">&#10095;</label>
+        <label for="jersey7" class="next">&#10095;</label>
+        <label for="jersey1" class="next last">&#10095;</label>
+    </div>
 </div>
-			    <div class="jerseys">
-			        <label for="jersey1" class="prev">&#10094;</label>
-			        <label for="jersey3" class="next">&#10095;</label>
-			        <div class="jersey" style="background-image: url('./resources/Jersey2.png');"></div>
-			    </div>
-			    <div class="jerseys">
-			        <label for="jersey2" class="prev">&#10094;</label>
-			        <label for="jersey4" class="next">&#10095;</label>
-			        <div class="jersey" style="background-image: url('./resources/Jersey3.png');"></div>
-			    </div>
-			    <div class="jerseys">
-			        <label for="jersey3" class="prev">&#10094;</label>
-			        <label for="jersey5" class="next">&#10095;</label>
-			        <div class="jersey" style="background-image: url('./resources/Jersey4.png');"></div>
-			    </div>
-			    <div class="jerseys">
-			        <label for="jersey4" class="prev">&#10094;</label>
-			        <label for="jersey6" class="next">&#10095;</label>
-			        <div class="jersey" style="background-image: url('./resources/Jersey5.png');"></div>
-			    </div>
-			    <div class="jerseys">
-			        <label for="jersey5" class="prev">&#10094;</label>
-			        <label for="jersey7" class="next">&#10095;</label>
-			        <div class="jersey" style="background-image: url('./resources/Jersey6.png');"></div>
-			    </div>
-			    <div class="jerseys">
-			        <label for="jersey6" class="prev">&#10094;</label>
-			        <label for="jersey1" class="next">&#10095;</label>
- 			       <div class="jersey" style="background-image: url('./resources/Jersey7.png');"></div>
-			    </div>
-			</div>
+
             <div class="flexbox" id="history">
                 <h2>History of The Team</h2>
                 <!-- Content goes here -->
