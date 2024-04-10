@@ -72,14 +72,52 @@ nav.sticky ul{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.jerseys img {
-    display: none; /* Hide all images by default */
-    /* Image styling goes here */
+.jerseys {
+    position: relative;
+    max-width: 600px; /* Adjust based on your needs */
+    margin: auto;
 }
 
-.jerseys input[type="radio"]:checked + label + label + img {
-    display: block; /* Show image after the checked radio button */
+.jersey-radio {
+    display: none;
 }
+
+.jersey {
+    display: none;
+    position: absolute;
+    width: 100%;
+}
+
+.jersey-radio:checked + .jersey {
+    display: block;
+}
+
+.next, .last {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    background-color: #ddd; /* Light background */
+    border: none;
+    padding: 10px 15px;
+    font-size: 24px;
+}
+
+/* Adjust next button positions if necessary */
+.next:nth-of-type(1) { top: 10%; }
+.next:nth-of-type(2) { top: 20%; }
+.next:nth-of-type(3) { top: 30%; }
+.next:nth-of-type(4) { top: 40%; }
+.next:nth-of-type(5) { top: 50%; }
+.next:nth-of-type(6) { top: 60%; }
+.next:nth-of-type(7) { top: 70%; }
+
+.jersey img {
+    width: 100%; /* Adjust if necessary */
+    height: auto;
+}
+
 
 
 .subscription-form {
