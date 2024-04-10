@@ -56,6 +56,17 @@ nav.sticky{
 nav.sticky ul{
       width: auto;
 }
+/* Style for the menu items */
+.menu-item {
+    color: #fff; /* White color for the text */
+    text-decoration: none; /* No underline */
+    font-weight: bold; /* Optionally make the font bold */
+}
+
+.menu-item:hover {
+    color: #663399; /* Lighter color on hover for visual feedback */
+    text-decoration: underline; /* Optionally underline on hover */
+}
 
 
 .flexbox-container {
