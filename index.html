@@ -32,10 +32,19 @@
     
 			    <!-- Jerseys -->
 			    <div class="jerseys">
-			        <label for="jersey7" class="prev">&#10094;</label>
-			        <label for="jersey2" class="next">&#10095;</label>
-			        <div class="jersey" style="background-image: url('./resources/Jersey1.png');"></div>
-			    </div>
+    <!-- Radio buttons for controlling which jersey is visible -->
+    <input type="radio" name="jersey" id="jersey1" checked>
+    <label for="jersey1" class="prev">&#10094;</label>
+    <label for="jersey2" class="next">&#10095;</label>
+    <img src="./resources/Jersey1.png" alt="Jersey 1">
+
+    <input type="radio" name="jersey" id="jersey2">
+    <label for="jersey2" class="prev">&#10094;</label>
+    <label for="jersey3" class="next">&#10095;</label>
+    <img src="./resources/Jersey2.png" alt="Jersey 2">
+
+    <!-- Repeat for other jerseys -->
+</div>
 			    <div class="jerseys">
 			        <label for="jersey1" class="prev">&#10094;</label>
 			        <label for="jersey3" class="next">&#10095;</label>
