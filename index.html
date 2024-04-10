@@ -2,13 +2,13 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Group Project 1: Webpage</title>
+    <title>TEST: Webpage</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="header">
         <nav id="navbar">
-            <link rel="icon" href="./resources/Logo.png" type="image/png+xml" class=logo>
+            <img src="./resources/Logo.png" alt="Logo" class="logo">
             <ul id="menu">
                 <li>HOME</li>
                 <li>LIGHT THE BEAM</li>
@@ -34,37 +34,37 @@
 			    <div class="jerseys">
 			        <label for="jersey7" class="prev">&#10094;</label>
 			        <label for="jersey2" class="next">&#10095;</label>
-			        <div class="jersey" style="background-image: url('./assignment-5-repo/resources/Jersey1.png');"></div>
+			        <div class="jersey" style="background-image: url('./resources/Jersey1.png');"></div>
 			    </div>
 			    <div class="jerseys">
 			        <label for="jersey1" class="prev">&#10094;</label>
 			        <label for="jersey3" class="next">&#10095;</label>
-			        <div class="jersey" style="background-image: url('/assignment-5-repo/resources/Jersey2.png');"></div>
+			        <div class="jersey" style="background-image: url('./resources/Jersey2.png');"></div>
 			    </div>
 			    <div class="jerseys">
 			        <label for="jersey2" class="prev">&#10094;</label>
 			        <label for="jersey4" class="next">&#10095;</label>
-			        <div class="jersey" style="background-image: url('assignment-5-repo/resources/Jersey3.png');"></div>
+			        <div class="jersey" style="background-image: url('./resources/Jersey3.png');"></div>
 			    </div>
 			    <div class="jerseys">
 			        <label for="jersey3" class="prev">&#10094;</label>
 			        <label for="jersey5" class="next">&#10095;</label>
-			        <div class="jersey" style="background-image: url('assignment-5-repo/resources/Jersey4.png');"></div>
+			        <div class="jersey" style="background-image: url('./resources/Jersey4.png');"></div>
 			    </div>
 			    <div class="jerseys">
 			        <label for="jersey4" class="prev">&#10094;</label>
 			        <label for="jersey6" class="next">&#10095;</label>
-			        <div class="jersey" style="background-image: url('assignment-5-repo/resources/Jersey5.png');"></div>
+			        <div class="jersey" style="background-image: url('./resources/Jersey5.png');"></div>
 			    </div>
 			    <div class="jerseys">
 			        <label for="jersey5" class="prev">&#10094;</label>
 			        <label for="jersey7" class="next">&#10095;</label>
-			        <div class="jersey" style="background-image: url('assignment-5-repo/resources/Jersey6.png');"></div>
+			        <div class="jersey" style="background-image: url('./resources/Jersey6.png');"></div>
 			    </div>
 			    <div class="jerseys">
 			        <label for="jersey6" class="prev">&#10094;</label>
 			        <label for="jersey1" class="next">&#10095;</label>
- 			       <div class="jersey" style="background-image: url('assignment-5-repo/resources/Jersey7.png');"></div>
+ 			       <div class="jersey" style="background-image: url('./resources/Jersey7.png');"></div>
 			    </div>
 			</div>
             <div class="flexbox" id="history">
@@ -109,7 +109,7 @@
 				var menu = document.getElementById("menu");
         
         window.onscroll = function(){
-        		if(window.pageYOffset >= menu.offsetTop){
+        		if(window.pageYOffset >= navbar.offsetHeight){
             		navbar.classList.add("sticky");
             }
             else{
