@@ -64,7 +64,7 @@ nav.sticky ul{
 }
 
 .menu-item:hover {
-    color: #663399; /* Lighter color on hover for visual feedback */
+    color: #000000; /* Lighter color on hover for visual feedback */
     text-decoration: underline; /* Optionally underline on hover */
 }
 
@@ -116,6 +116,18 @@ nav.sticky ul{
 #nextJersey {
     right: 10px;
 }
+
+
+#history .team-history {
+    padding-left: 20px; /* Adjusts the indentation of the list */
+    color: #333; /* Dark gray color for text */
+    font-size: 16px; /* Adjusts the font size */
+}
+
+#history .team-history li {
+    margin-bottom: 10px; /* Adds space between list items */
+}
+
 
 #schedule img {
     max-width: 100%; /* Ensures the image is no wider than its container */
