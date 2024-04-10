@@ -98,6 +98,10 @@ nav.sticky ul{
     right: 10px;
 }
 
+#schedule img {
+    max-width: 100%; /* Ensures the image is no wider than its container */
+    height: auto; /* Maintains the image's aspect ratio */
+}
 
 
 
