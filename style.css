@@ -72,6 +72,14 @@ nav.sticky ul{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.jerseys img {
+    display: none; /* Hide all images by default */
+    /* Image styling goes here */
+}
+
+.jerseys input[type="radio"]:checked + label + label + img {
+    display: block; /* Show image after the checked radio button */
+}
 
 
 .subscription-form {
